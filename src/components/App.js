@@ -7,14 +7,14 @@ import Form from "./Form";
 const App = () => {
   let [name, setName] = useState("");
   let [email, setEmail] = useState("");
-  let [pass, setPass] = useState("");
+  let [password, setPass] = useState("");
 
   function handelform(e) {
     e.preventDefault();
     let obj = {
       name:name,
       email:email,
-      pass:pass
+      password:password
     }
     console.log(obj);
   }
